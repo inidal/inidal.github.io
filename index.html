@@ -584,28 +584,7 @@ body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}bo
     
     
     
-        
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-        
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
+    
         
             
             
@@ -656,17 +635,90 @@ body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}bo
     
 
     
+    
+    
+    
+    
+    
+        
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+        
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+        
+    
+
+    
+
+    
 
     
     
     
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
 
     <span id="ps1_01"></span> <span id="cd"></span> <br>
+
+
 <span id="ps1_02"></span> <span id="cat"></span> <br>
 <span id="std_out_01"></span> <br>
+
+
 <span id="ps1_03"></span> <span id="tree"></span> <br>
-<span id="std_out_02"></span> <br>
-<span id="ps1_04"></span>
+<span id="std_out_02"></span> <br><br>
+
+
+<span id="ps1_04"></span> <span id="tree2"></span> <br>
+<span id="std_out_03"></span> <br><br>
+
+
+<span id="ps1_05"></span> <span id="cat2"></span> <br>
+<span id="std_out_04"></span> <br><br>
+
+
+<span id="ps1_06"></span> <span id="cat3"></span> <br>
+<span id="std_out_05"></span> <br><br>
+
+
+<span id="ps1_07"></span> <span id="cat4"></span> <br>
+<span id="std_out_06"></span> <br><br>
+
+
+<span id="ps1_08"></span> <span id="exit"></span> <br>
+<span id="std_out_07"></span> <br><br>
+
+
 
 <script type="text/javascript">
     async function typewriter(text, elementId, waitAfter) {
@@ -716,12 +768,28 @@ body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}bo
         stdoutDelay = parseDelay("0"),
         commandDelay = parseDelay("50");
     const typeeffetct = async () => {
-        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_01", ps1Delay); await typewriter("\u003cspan id=\u0027terminal\u0027\u003ecd short_summary\u003c\/span\u003e", "cd", commandDelay);
-        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/short_summary\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_02", ps1Delay); await typewriter("\u003cspan id=terminal\u003ecat notes.txt\u003c\/span\u003e", "cat", commandDelay);
-        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cbr\u003e  👋 Hi there! I\u0027m Nidal Iguer!\u003cbr\u003e  Nice to meet you!\u003cbr\u003e  \n  \u003c\/span\u003e", "std_out_01", stdoutDelay);
-        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/short_summary\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_03", ps1Delay); await typewriter("\u003cspan id=\u0027terminal\u0027\u003etree .\/my_projects\/\u003c\/span\u003e", "tree", commandDelay);
-        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cstrong\u003e\u003cspan id=\u0027dir\u0027\u003e.\/my_projects\/\u003c\/span\u003e\u003c\/strong\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/corspat.inidal.dev\/\u0027\u003eCorspat — Built Your Path!\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/mehdimaimoun.com\/\u0027\u003eMehdi Maimoun Homepage\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/discord.gg\/7fxhVstURu\u0027\u003elaby (Discord Bot)\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/inidal.github.io\/ggl-data-capstone\/\u0027\u003eCyclistic Bike (case study)\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/www.facebook.com\/EdmyriaBand\/\u0027\u003eEdmyria\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e└── \u003ca href=\u0027https:\/\/www.youtube.com\/playlist?list=PLc_5EO6eRJkR2uZ4RhghQKtQbQqSu4J9Y\u0027\u003eEdmyria Records\u003c\/a\u003e\u003c\/span\u003e", "std_out_02", stdoutDelay);
-        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/short_summary\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_04", ps1Delay);
+        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_01", ps1Delay); await typewriter("\u003cspan id=\u0027terminal\u0027\u003ecd dotdev\u003c\/span\u003e", "cd", commandDelay);
+
+        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/dotdev\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_02", ps1Delay); await typewriter("\u003cspan id=terminal\u003ecat hello.txt\u003c\/span\u003e", "cat", commandDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e  \u003cbr\u003e👋 Hi there! I\u0027m Nidal Iguer!\u003cbr\u003e  Nice to meet you!\u003cbr\u003e  \n  \u003c\/span\u003e", "std_out_01", stdoutDelay);
+
+        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/dotdev\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_03", ps1Delay); await typewriter("\u003cspan id=\u0027terminal\u0027\u003etree .\/projects\/\u003c\/span\u003e", "tree", commandDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cstrong\u003e\u003cspan id=\u0027dir\u0027\u003e.\/projects\/\u003c\/span\u003e\u003c\/strong\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/corspat.inidal.dev\/\u0027\u003eCorspat — Built Your Path!\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/mehdimaimoun.com\/\u0027\u003eMehdi Maimoun — Homepage\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/inidal.github.io\/ggl-data-capstone\/\u0027\u003eCyclistic Bike (case study)\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e└── \u003ca href=\u0027https:\/\/discord.gg\/7fxhVstURu\u0027\u003elaby (Discord Bot)\u003c\/a\u003e\u003c\/span\u003e", "std_out_02", stdoutDelay);
+
+        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/dotdev\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_04", ps1Delay); await typewriter("\u003cspan id=\u0027terminal\u0027\u003etree .\/hobby\/\u003c\/span\u003e", "tree2", commandDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cstrong\u003e\u003cspan id=\u0027dir\u0027\u003e.\/hobby\/\u003c\/span\u003e\u003c\/strong\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/www.facebook.com\/EdmyriaBand\/\u0027\u003eEdmyria\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e└── \u003ca href=\u0027https:\/\/www.youtube.com\/playlist?list=PLc_5EO6eRJkR2uZ4RhghQKtQbQqSu4J9Y\u0027\u003eEdmyria Records\u003c\/a\u003e\u003c\/span\u003e", "std_out_03", stdoutDelay);
+
+        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/dotdev\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_05", ps1Delay); await typewriter("\u003cspan id=terminal\u003ecat certs.txt\u003c\/span\u003e", "cat2", commandDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e  My entire curriculum is availble here:\u003cbr \/\u003e\n  \u003ca href=\u0022https:\/\/github.com\/inidal\/curriculum\u0022 target=\u0022blank\u0022\u003eNidal Iguer - GitHub\u003c\/a\u003e\n  \u003c\/span\u003e", "std_out_04", stdoutDelay);
+
+        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/dotdev\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_06", ps1Delay); await typewriter("\u003cspan id=terminal\u003ecat resume.txt\u003c\/span\u003e", "cat3", commandDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e  You can download my resume in PDF here:\u003cbr \/\u003e\n  \u003ca href=\u0022https:\/\/inidal.dev\/resume.pdf\u0022 target=\u0022blank\u0022\u003ehttps:\/\/inidal.dev\/resume.pdf\u003c\/a\u003e\n  \u003c\/span\u003e", "std_out_05", stdoutDelay);
+
+        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/dotdev\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_07", ps1Delay); await typewriter("\u003cspan id=terminal\u003ecat bye_msg.txt\u003c\/span\u003e", "cat4", commandDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e  Thank you for taking time out of your\u003cbr \/\u003e\n  schedule to read my portfolio. Feel free \u003cbr \/\u003e\n  to contact me at \u003cstrong\u003ehello[at]inidal[dot]dev\u003c\/strong\u003e\u003cbr \/\u003e\n  if you have any question.\n  \u003c\/span\u003e", "std_out_06", stdoutDelay);
+
+        await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003einidal@exia\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/dotdev\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_08", ps1Delay); await typewriter("\u003cspan id=terminal\u003eexit\u003c\/span\u003e", "exit", commandDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e  \u003e You\u0027ve been disconnected.\n  \u003c\/span\u003e", "std_out_07", stdoutDelay);
         return;
     }
 
@@ -731,29 +799,7 @@ body{background:#1b1d1e}body #terminal{color:#BBBBBB}body #user{color:#23E298}bo
 
         </div>
         
-        <span class="navFull">
         
-    
-    
-
-    
-        
-
-<span>
-    <a href="/">Home</a>
-    <span>&#8192;|&#8192;</span>
-    <a href="./..">/</a>
-</span>
-
-    
-
-        
-        <span class="navCredits">
-            Hugo theme created by
-            <a href="https://github.com/Yukuro/hugo-theme-shell" target="_blank" rel="noopener">Yukuro</a>
-        </span>
-</span>
-
         
          
     </body>
